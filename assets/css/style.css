@@ -19,6 +19,7 @@ img{
   clear: both;
   background: #ffffff;
   margin-left: 20%;
+  padding-bottom: 75px;
 }
 
 aside {
@@ -28,6 +29,9 @@ aside {
   background: #4aaaa5;
   text-align: center;
   padding-top: 25px;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+
 }
 
 ul {
@@ -59,6 +63,7 @@ li a:hover {
 
 .main{
   width: 960px;
-  margin-left: 20%;
-  padding-top: 50px;
+  margin-left: 20%; 
+  background-color: tan;
+  border: black;
 }
