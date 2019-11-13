@@ -15,7 +15,7 @@ img{
 #full {
   width: 960px;
   overflow: hidden;
-  height:75px;
+  height:0px;
   clear: both;
   background: #ffffff;
   margin-left: 20%;
@@ -72,4 +72,5 @@ li a:hover {
   background-image: url("../images/greek-vase.png");
   height: 500px;
   background-color:white;
+  padding-top: 40px;
 }
