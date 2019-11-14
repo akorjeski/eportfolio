@@ -48,13 +48,17 @@ li {
   padding-right: 20px;
   
 }
+li:not(:first-child) {
+  border-right: 1px solid black;
 
+}
 li a {
   display: inline-block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
 
 
