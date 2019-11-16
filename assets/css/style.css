@@ -37,7 +37,10 @@ input{
 
 img{
   float:left;
-  padding: 15px;
+}
+.aboutmepic{
+  float:left;
+
 }
 
 #full {
@@ -107,27 +110,33 @@ li a:hover {
   padding-top: 40px;
 }
 
-div.gallery {
-
-  border: 1px solid #ccc;
-  float: left;
-  width: 25%;
+table {
+  width: inherit;
+  margin-top: 10px;
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
 }
-
-div.gallery img {
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+td, th {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.img-caption {
+  position: absolute;
+  z-index: 50;
   display: block;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  width: 88%;
-}
-
-div.desc {
-  padding: 15px;
+  width: 240px;
+  top: 45%;
+  color: white;
+  background-color: #4aaaa5;
   text-align: center;
+  padding: 10px 0 10px 0;
 }
 
