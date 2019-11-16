@@ -40,6 +40,7 @@ img{
 }
 .aboutmepic{
   float:left;
+  padding: 20px;
 
 }
 
@@ -104,7 +105,7 @@ li a:hover {
   padding: 20px;
 }
 #mainbackground{
-  background-image: url("../images/greek-vase.png");
+  background-image: url("../images/cork-board.png");
   height: 600px;
   background-color:white;
   padding-top: 40px;
