@@ -2,10 +2,26 @@
   margin-top: 0;
 }
 
+hr{
+ border-color: #4aaaa5;
+}
+h2{
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
 p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: black
     ;
+}
+textarea{
+  width: 100%;
+  margin-top: 10px;
+}
+input{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 img{
@@ -19,7 +35,7 @@ img{
   height:0px;
   clear: both;
   background: #ffffff;
-  margin-left: 20%;
+  margin: auto;
   padding-bottom: 75px;
 }
 
@@ -68,11 +84,10 @@ li a:hover {
 
 .main{
   width: 960px;
-  margin-left: 20%; 
-  background-color: tan;
+  margin: auto; 
+  background-color: #ffffff;
   border: black;
   padding: 20px;
-  height: 460px;
 }
 #mainbackground{
   background-image: url("../images/greek-vase.png");
